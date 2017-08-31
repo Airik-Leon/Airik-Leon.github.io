@@ -1,0 +1,18 @@
+html, body{
+  height:100%;
+  weight: auto;
+  margin 0 auto;
+  color: #42a1f4;
+}
+h1{
+  text-align: center;
+}
+ul{
+  display:inline-block;
+  list-style: none;
+  text-align: center;
+}
+li{
+  float:left;
+  margin:10px;
+}
