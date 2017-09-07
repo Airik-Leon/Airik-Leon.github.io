@@ -23,6 +23,7 @@ html, body{
   color: black;
   border-radius:5px;
   padding:5px;
+  text-decoration: none; 
 }
 #nav-bar a:hover{
   background-color:#190d2d;
