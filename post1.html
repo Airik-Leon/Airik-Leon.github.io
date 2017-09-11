@@ -14,4 +14,31 @@
     <li><a href="post5.html">"Return types"</a></li>
   </ul>
 </div>
-Working...
+
+<div id="main-post">
+  <h3> = vs ==</h3>
+  <p>First and foremost it is important to nail down the definitin of '=' and
+    '=='because in programming only one of these really means 'equals' in the
+    mathematical sense. Even then, context matters in how you use them that may
+    change the definition of each symbol.<br/><br/>
+
+    '=' should always be read as assignment as in:<br/>
+     Bill is assigned the age 10. <code> Bill = 10; </code><br/>
+     or<br/>
+     Bill is assigned "Bill": <code> Bill = "Bill"; </code><br/><br/>
+
+     If you read it always as assignment that should avoid any pitfalls regarding
+     'equals' and assignment statements.<br/>
+     As for '==' this should known as a comparison operator which means it requires
+     two operands to even work.<br/><br/>
+
+     So <code>'if(2 == 2){do something}</code>makes sense if used with a conditional statement like 'if/else'.<br/>
+     But it doesn't make sense if you just type '<code>2 == 2;</code>' because that is not a statement <br/>
+     <br/>
+     When we get into data types <code> '=='</code> makes a different comparison when
+     not used with numbers. With strings and characters it compares their ASCII values totaled
+     not the string number so "2" equates to the value 2 because the ASCII value is 2, BUT,
+     ASCII value 15 equates to the value "F", meaning "15" =/= 15. In the previous
+     example "15" totals to 6. Thus "15" == 6 would comeback as true.
+</div>
+<footer></footer>

@@ -13,21 +13,22 @@ html, body{
 }
 #nav-bar{
   width:100%;
-  height:50px;
+  height:auto;
   background-color:#f7f8f9;
   text-align: center;
   margin-top:-15px;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px #f7f8f9;
 }
 #nav-bar a{
-  color: black;
   border-radius:5px;
   padding:5px;
-  text-decoration: none; 
+  text-decoration: none;
 }
-#nav-bar a:hover{
+#nav-bar li:hover{
   background-color:#190d2d;
   color:white;
+  border-radius: 5px;
+  padding:5px;
 }
 #nav-bar a:hover:visited{
   color:white;
@@ -42,10 +43,34 @@ ul{
 }
 li{
   float:left;
-  margin:10px;
+  margin:5px;
+  width:15%;
+}
+#main-post{
+  width:50%;
+  height:auto;
+  border: 1px solid #f7f8f9;
+  margin:auto;
+  margin-top:50px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px silver;
+  background-color:#f7f8f9;
+}
+h3{
+  color:black;
+  text-align: center;
 }
 p{
   margin:20px;
   color:black;
   font-family: arial;
+}
+footer{
+  width:100%;
+  height:300px;
+  bottom:0;
+  left: 0;
+  right:0;
+  margin-top:10px;
+  background-color: #f7f8f9;
 }
